@@ -150,7 +150,7 @@ const Register = () => {
                 <div className="h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent"></div>
               ) : (
                 <>
-                  Register System Operator
+                  Create Account
                   <ArrowRight className="h-4.5 w-4.5 group-hover:translate-x-1 transition-transform" />
                 </>
               )}
@@ -163,7 +163,7 @@ const Register = () => {
           <p className="text-secondaryText font-medium">
             Already have an account?{' '}
             <Link to="/login" className="text-accentBlue font-bold hover:underline">
-              Sign in here
+              Sign In here
             </Link>
           </p>
         </div>

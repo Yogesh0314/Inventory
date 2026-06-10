@@ -105,7 +105,7 @@ const Login = () => {
                 <div className="h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent"></div>
               ) : (
                 <>
-                  Authenticate Access
+                  Sign In to System
                   <ArrowRight className="h-4.5 w-4.5 group-hover:translate-x-1 transition-transform" />
                 </>
               )}
@@ -116,9 +116,9 @@ const Login = () => {
         {/* Redirect Footer */}
         <div className="text-center mt-6 text-sm">
           <p className="text-secondaryText font-medium">
-            New operator?{' '}
+            Don't have an account?{' '}
             <Link to="/register" className="text-accentBlue font-bold hover:underline">
-              Create local account
+              Register here
             </Link>
           </p>
         </div>

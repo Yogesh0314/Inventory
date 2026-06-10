@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "_id": "a3gpwozhu",
+      "createdAt": "2026-05-22T01:25:00.544Z",
+      "updatedAt": "2026-05-22T01:25:00.544Z",
+      "username": "admin_test",
+      "email": "admin@test.com",
+      "password": "$2a$10$Tvfq/15DzL1D11oBL10pQ.2e7c2GIvuZeSUiKDng9NBrMsEyIiGMO",
+      "role": "admin"
+    },
+    {
+      "_id": "admin_smart",
+      "createdAt": "2026-05-24T10:00:00.000Z",
+      "updatedAt": "2026-05-24T10:00:00.000Z",
+      "username": "System Admin",
+      "email": "admin@smartstock.com",
+      "password": "$2a$10$Tvfq/15DzL1D11oBL10pQ.2e7c2GIvuZeSUiKDng9NBrMsEyIiGMO",
+      "role": "admin"
+    },
+    {
+      "_id": "p6ecup8uz",
+      "createdAt": "2026-06-10T09:46:27.958Z",
+      "updatedAt": "2026-06-10T09:46:27.959Z",
+      "username": "testuser",
+      "email": "test_0.05199694008421574@example.com",
+      "password": "$2a$10$RCjDM7XEG3zlnX5v6pv3t.U21a99hScsaNZPEzIL.cKyjTzt46Fv.",
+      "role": "staff"
+    },
+    {
+      "_id": "jr91dj6bo",
+      "createdAt": "2026-06-10T09:47:14.886Z",
+      "updatedAt": "2026-06-10T09:47:14.887Z",
+      "username": "testuser",
+      "email": "test_0.803478654803168@example.com",
+      "password": "$2a$10$C4TohB71FXG4n3Jmj54J.eqFp/YhHOG8ztxm6bWiFe8JlGvFcVhci",
+      "role": "staff"
+    },
+    {
+      "_id": "2en9npqly",
+      "createdAt": "2026-06-10T09:47:54.507Z",
+      "updatedAt": "2026-06-10T09:47:54.507Z",
+      "username": "testuser",
+      "email": "test_0.994700585649851@example.com",
+      "password": "$2a$10$zCPynLJN1.TF5w3e9IYNUOTGTulzeS/t/4P/z4EanQcOU53WbnTI6",
+      "role": "staff"
+    },
+    {
+      "_id": "9kbj3wwlr",
+      "createdAt": "2026-06-10T09:51:29.883Z",
+      "updatedAt": "2026-06-10T09:51:29.883Z",
+      "username": "testuser",
+      "email": "test_0.7998657872180843@example.com",
+      "password": "$2a$10$sH1QMYsHhpijqyjQaLSZceEi.APUx0a0fqhQ3i8OyLYxNDPPXvveG",
+      "role": "staff"
+    },
+    {
+      "_id": "5yxorq73l",
+      "createdAt": "2026-06-10T09:53:48.660Z",
+      "updatedAt": "2026-06-10T09:53:48.660Z",
+      "username": "testuser",
+      "email": "test_0.1446086223823635@example.com",
+      "password": "$2a$10$MKvUNG709ZfNzE5uzUYxbO5HQli.06Oz4qGGlk9RxIY/YaUf9DX52",
+      "role": "staff"
+    }
+  ],
+  "products": [
+    {
+      "_id": "875msqia7",
+      "createdAt": "2026-05-22T01:25:00.573Z",
+      "updatedAt": "2026-05-22T01:25:00.618Z",
+      "name": "Wireless Keyboard",
+      "sku": "WKB-001",
+      "description": "Ergonomic layout mechanical keyboard",
+      "category": "Electronics",
+      "price": 49.99,
+      "quantity": 3,
+      "minLimit": 5,
+      "supplierId": "p0bvuism7"
+    },
+    {
+      "_id": "0hgwmlfg7",
+      "createdAt": "2026-06-10T09:53:48.698Z",
+      "updatedAt": "2026-06-10T09:53:48.725Z",
+      "name": "Test Gadget",
+      "sku": "TG-cp2c6",
+      "category": "Gadgets",
+      "price": 99.99,
+      "quantity": 45,
+      "minLimit": 10
+    }
+  ],
+  "suppliers": [
+    {
+      "_id": "p0bvuism7",
+      "createdAt": "2026-05-22T01:25:00.564Z",
+      "updatedAt": "2026-05-22T01:25:00.564Z",
+      "name": "Global Tech Suppliers",
+      "contactName": "Jane Smith",
+      "email": "jane@globaltech.com",
+      "phone": "123-456-7890",
+      "address": "123 Supply Ave"
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "ql07q45dx",
+      "createdAt": "2026-05-22T01:25:00.582Z",
+      "updatedAt": "2026-05-22T01:25:00.582Z",
+      "type": "purchase",
+      "productId": "875msqia7",
+      "productName": "Wireless Keyboard",
+      "quantity": 5,
+      "price": 35,
+      "notes": "Restock order",
+      "date": "2026-05-22T01:25:00.582Z"
+    },
+    {
+      "_id": "fvpzw96pj",
+      "createdAt": "2026-05-22T01:25:00.597Z",
+      "updatedAt": "2026-05-22T01:25:00.597Z",
+      "type": "sale",
+      "productId": "875msqia7",
+      "productName": "Wireless Keyboard",
+      "quantity": 3,
+      "price": 49.99,
+      "notes": "Customer retail purchase",
+      "date": "2026-05-22T01:25:00.597Z"
+    },
+    {
+      "_id": "iuxpohefm",
+      "createdAt": "2026-05-22T01:25:00.620Z",
+      "updatedAt": "2026-05-22T01:25:00.620Z",
+      "type": "sale",
+      "productId": "875msqia7",
+      "productName": "Wireless Keyboard",
+      "quantity": 9,
+      "price": 49.99,
+      "notes": "Manual stock adjustment by admin_test"
+    },
+    {
+      "_id": "r4bffpv0u",
+      "createdAt": "2026-06-10T09:53:48.726Z",
+      "updatedAt": "2026-06-10T09:53:48.726Z",
+      "type": "sale",
+      "productId": "0hgwmlfg7",
+      "productName": "Test Gadget",
+      "quantity": 5,
+      "price": 99.99,
+      "notes": "Manual stock adjustment by System Admin"
+    }
+  ],
+  "audit_logs": [
+    {
+      "_id": "3v3h1plbi",
+      "createdAt": "2026-06-10T09:53:48.699Z",
+      "updatedAt": "2026-06-10T09:53:48.699Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "CREATE",
+      "target": {
+        "collection": "products",
+        "id": "0hgwmlfg7",
+        "name": "Test Gadget"
+      },
+      "oldValue": null,
+      "newValue": {
+        "_id": "0hgwmlfg7",
+        "createdAt": "2026-06-10T09:53:48.698Z",
+        "updatedAt": "2026-06-10T09:53:48.698Z",
+        "name": "Test Gadget",
+        "sku": "TG-cp2c6",
+        "category": "Gadgets",
+        "price": 99.99,
+        "quantity": 50,
+        "minLimit": 10
+      },
+      "timestamp": "2026-06-10T09:53:48.699Z"
+    },
+    {
+      "_id": "31xz3y04b",
+      "createdAt": "2026-06-10T09:53:48.726Z",
+      "updatedAt": "2026-06-10T09:53:48.726Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "ADJUST_STOCK",
+      "target": {
+        "collection": "products",
+        "id": "0hgwmlfg7",
+        "name": "Test Gadget"
+      },
+      "oldValue": {
+        "quantity": 50
+      },
+      "newValue": {
+        "quantity": 45
+      },
+      "timestamp": "2026-06-10T09:53:48.725Z"
+    }
+  ]
+}

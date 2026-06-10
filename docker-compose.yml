@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  # Database Service
+  mongodb:
+    image: mongo:latest
+    container_name: smart-inventory-db
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  # Backend API Service
+  backend:
+    build: ./backend
+    container_name: smart-inventory-backend
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - MONGO_URI=mongodb://mongodb:27017/inventory_db
+      - JWT_SECRET=${JWT_SECRET:-production_secret_key_123}
+      - PORT=5000
+    depends_on:
+      - mongodb
+
+  # Frontend Web Service
+  frontend:
+    build: ./frontend
+    container_name: smart-inventory-frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:

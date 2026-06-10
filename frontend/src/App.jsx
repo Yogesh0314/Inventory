@@ -57,8 +57,8 @@ function App() {
             <Router>
               <Routes>
                 {/* Public Auth Routes */}
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
+                <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
+                <Route path="/register" element={<PublicRoute><Register /></PublicRoute>} />
 
                 {/* Protected Main Application Layouts */}
                 <Route 
@@ -125,6 +125,16 @@ function App() {
                 {/* Catch-all fallback router */}
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
+            </Router>
+          </ToastProvider>
+        </AuthProvider>
+      </QueryClientProvider>
+    </ErrorBoundary>
+  );
+}
+
+export default App;
+   </Routes>
             </Router>
           </ToastProvider>
         </AuthProvider>

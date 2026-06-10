@@ -66,4 +66,14 @@ describe('Product API', () => {
     expect(res.statusCode).toBe(400);
     expect(res.body.message).toBe('Insufficient stock. Quantity cannot go below 0');
   });
+
+  it('should import products from CSV', async () => {
+    const res = await request(app)
+      .post('/api/products/import')
+      .set('Authorization', `Bearer ${token}`)
+      .attach('file', 'test_import.csv');
+
+    expect(res.statusCode).toBe(200);
+    expect(res.body.message).toContain('Import complete');
+  });
 });

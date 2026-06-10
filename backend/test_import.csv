@@ -1,0 +1,4 @@
+name,sku,price,category,description,quantity,minLimit,imageUrl
+Gaming Mouse,GM-99,29.99,Electronics,High precision mouse,100,10,
+Mechanical Keyboard,MK-88,89.99,Electronics,RGB backlight keyboard,50,5,
+Office Chair,OC-12,149.50,Furniture,Ergonomic office chair,20,2,

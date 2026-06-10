@@ -62,6 +62,33 @@
       "email": "test_0.1446086223823635@example.com",
       "password": "$2a$10$MKvUNG709ZfNzE5uzUYxbO5HQli.06Oz4qGGlk9RxIY/YaUf9DX52",
       "role": "staff"
+    },
+    {
+      "_id": "7i9r7syr0",
+      "createdAt": "2026-06-10T09:59:11.268Z",
+      "updatedAt": "2026-06-10T09:59:11.268Z",
+      "username": "testuser",
+      "email": "test_0.6527912291399589@example.com",
+      "password": "$2a$10$9aCxIQVTQKEeVV2f8yPU6eCzIrsP71h0.co9CIMCzZtd9WSbO/dLa",
+      "role": "staff"
+    },
+    {
+      "_id": "q8ux85ddp",
+      "createdAt": "2026-06-10T10:02:58.804Z",
+      "updatedAt": "2026-06-10T10:02:58.805Z",
+      "username": "testuser",
+      "email": "test_0.42172243747075644@example.com",
+      "password": "$2a$10$8Q2inRjANsjTr4o.IN1zveUCXowP0IOSBh3/u8BxSFalFN7hw16IG",
+      "role": "staff"
+    },
+    {
+      "_id": "rwjo0z2yd",
+      "createdAt": "2026-06-10T10:03:35.599Z",
+      "updatedAt": "2026-06-10T10:03:35.599Z",
+      "username": "testuser",
+      "email": "test_0.14931002648101654@example.com",
+      "password": "$2a$10$mFK8HMFHagbosWWRybrM3OLk2jTKwUKRedPcUetvJPs/Brl312mwS",
+      "role": "staff"
     }
   ],
   "products": [
@@ -84,6 +111,78 @@
       "updatedAt": "2026-06-10T09:53:48.725Z",
       "name": "Test Gadget",
       "sku": "TG-cp2c6",
+      "category": "Gadgets",
+      "price": 99.99,
+      "quantity": 45,
+      "minLimit": 10
+    },
+    {
+      "_id": "ualk6yj90",
+      "createdAt": "2026-06-10T09:59:11.285Z",
+      "updatedAt": "2026-06-10T09:59:11.313Z",
+      "name": "Test Gadget",
+      "sku": "TG-govrs",
+      "category": "Gadgets",
+      "price": 99.99,
+      "quantity": 45,
+      "minLimit": 10
+    },
+    {
+      "_id": "2j43ly24c",
+      "createdAt": "2026-06-10T10:02:58.816Z",
+      "updatedAt": "2026-06-10T10:02:58.837Z",
+      "name": "Test Gadget",
+      "sku": "TG-2b6wa",
+      "category": "Gadgets",
+      "price": 99.99,
+      "quantity": 45,
+      "minLimit": 10
+    },
+    {
+      "_id": "d2otp9p5e",
+      "createdAt": "2026-06-10T10:02:58.859Z",
+      "updatedAt": "2026-06-10T10:02:58.859Z",
+      "name": "Gaming Mouse",
+      "sku": "GM-99",
+      "description": "High precision mouse",
+      "category": "Electronics",
+      "price": 29.99,
+      "quantity": 100,
+      "minLimit": 10,
+      "imageUrl": ""
+    },
+    {
+      "_id": "4bvpglhts",
+      "createdAt": "2026-06-10T10:02:58.860Z",
+      "updatedAt": "2026-06-10T10:02:58.860Z",
+      "name": "Mechanical Keyboard",
+      "sku": "MK-88",
+      "description": "RGB backlight keyboard",
+      "category": "Electronics",
+      "price": 89.99,
+      "quantity": 50,
+      "minLimit": 5,
+      "imageUrl": ""
+    },
+    {
+      "_id": "fviki6mwm",
+      "createdAt": "2026-06-10T10:02:58.861Z",
+      "updatedAt": "2026-06-10T10:02:58.861Z",
+      "name": "Office Chair",
+      "sku": "OC-12",
+      "description": "Ergonomic office chair",
+      "category": "Furniture",
+      "price": 149.5,
+      "quantity": 20,
+      "minLimit": 2,
+      "imageUrl": ""
+    },
+    {
+      "_id": "u5wkah0we",
+      "createdAt": "2026-06-10T10:03:35.610Z",
+      "updatedAt": "2026-06-10T10:03:35.638Z",
+      "name": "Test Gadget",
+      "sku": "TG-u5zk1",
       "category": "Gadgets",
       "price": 99.99,
       "quantity": 45,
@@ -148,6 +247,39 @@
       "quantity": 5,
       "price": 99.99,
       "notes": "Manual stock adjustment by System Admin"
+    },
+    {
+      "_id": "4qzkspxk8",
+      "createdAt": "2026-06-10T09:59:11.314Z",
+      "updatedAt": "2026-06-10T09:59:11.314Z",
+      "type": "sale",
+      "productId": "ualk6yj90",
+      "productName": "Test Gadget",
+      "quantity": 5,
+      "price": 99.99,
+      "notes": "Manual stock adjustment by System Admin"
+    },
+    {
+      "_id": "a4eq1mr89",
+      "createdAt": "2026-06-10T10:02:58.839Z",
+      "updatedAt": "2026-06-10T10:02:58.839Z",
+      "type": "sale",
+      "productId": "2j43ly24c",
+      "productName": "Test Gadget",
+      "quantity": 5,
+      "price": 99.99,
+      "notes": "Manual stock adjustment by System Admin"
+    },
+    {
+      "_id": "l927qqpf5",
+      "createdAt": "2026-06-10T10:03:35.640Z",
+      "updatedAt": "2026-06-10T10:03:35.640Z",
+      "type": "sale",
+      "productId": "u5wkah0we",
+      "productName": "Test Gadget",
+      "quantity": 5,
+      "price": 99.99,
+      "notes": "Manual stock adjustment by System Admin"
     }
   ],
   "audit_logs": [
@@ -202,6 +334,255 @@
         "quantity": 45
       },
       "timestamp": "2026-06-10T09:53:48.725Z"
+    },
+    {
+      "_id": "47fcfr20z",
+      "createdAt": "2026-06-10T09:59:11.286Z",
+      "updatedAt": "2026-06-10T09:59:11.286Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "CREATE",
+      "target": {
+        "collection": "products",
+        "id": "ualk6yj90",
+        "name": "Test Gadget"
+      },
+      "oldValue": null,
+      "newValue": {
+        "_id": "ualk6yj90",
+        "createdAt": "2026-06-10T09:59:11.285Z",
+        "updatedAt": "2026-06-10T09:59:11.285Z",
+        "name": "Test Gadget",
+        "sku": "TG-govrs",
+        "category": "Gadgets",
+        "price": 99.99,
+        "quantity": 50,
+        "minLimit": 10
+      },
+      "timestamp": "2026-06-10T09:59:11.286Z"
+    },
+    {
+      "_id": "un07gbdqk",
+      "createdAt": "2026-06-10T09:59:11.313Z",
+      "updatedAt": "2026-06-10T09:59:11.313Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "ADJUST_STOCK",
+      "target": {
+        "collection": "products",
+        "id": "ualk6yj90",
+        "name": "Test Gadget"
+      },
+      "oldValue": {
+        "quantity": 50
+      },
+      "newValue": {
+        "quantity": 45
+      },
+      "timestamp": "2026-06-10T09:59:11.313Z"
+    },
+    {
+      "_id": "354tjswtl",
+      "createdAt": "2026-06-10T10:02:58.816Z",
+      "updatedAt": "2026-06-10T10:02:58.816Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "CREATE",
+      "target": {
+        "collection": "products",
+        "id": "2j43ly24c",
+        "name": "Test Gadget"
+      },
+      "oldValue": null,
+      "newValue": {
+        "_id": "2j43ly24c",
+        "createdAt": "2026-06-10T10:02:58.816Z",
+        "updatedAt": "2026-06-10T10:02:58.816Z",
+        "name": "Test Gadget",
+        "sku": "TG-2b6wa",
+        "category": "Gadgets",
+        "price": 99.99,
+        "quantity": 50,
+        "minLimit": 10
+      },
+      "timestamp": "2026-06-10T10:02:58.816Z"
+    },
+    {
+      "_id": "q1xa5qu9u",
+      "createdAt": "2026-06-10T10:02:58.838Z",
+      "updatedAt": "2026-06-10T10:02:58.838Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "ADJUST_STOCK",
+      "target": {
+        "collection": "products",
+        "id": "2j43ly24c",
+        "name": "Test Gadget"
+      },
+      "oldValue": {
+        "quantity": 50
+      },
+      "newValue": {
+        "quantity": 45
+      },
+      "timestamp": "2026-06-10T10:02:58.838Z"
+    },
+    {
+      "_id": "9rtqrwtgf",
+      "createdAt": "2026-06-10T10:02:58.859Z",
+      "updatedAt": "2026-06-10T10:02:58.859Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "IMPORT",
+      "target": {
+        "collection": "products",
+        "id": "d2otp9p5e",
+        "name": "Gaming Mouse"
+      },
+      "oldValue": null,
+      "newValue": {
+        "_id": "d2otp9p5e",
+        "createdAt": "2026-06-10T10:02:58.859Z",
+        "updatedAt": "2026-06-10T10:02:58.859Z",
+        "name": "Gaming Mouse",
+        "sku": "GM-99",
+        "description": "High precision mouse",
+        "category": "Electronics",
+        "price": 29.99,
+        "quantity": 100,
+        "minLimit": 10,
+        "imageUrl": ""
+      },
+      "timestamp": "2026-06-10T10:02:58.859Z"
+    },
+    {
+      "_id": "x36sqdqlb",
+      "createdAt": "2026-06-10T10:02:58.861Z",
+      "updatedAt": "2026-06-10T10:02:58.861Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "IMPORT",
+      "target": {
+        "collection": "products",
+        "id": "4bvpglhts",
+        "name": "Mechanical Keyboard"
+      },
+      "oldValue": null,
+      "newValue": {
+        "_id": "4bvpglhts",
+        "createdAt": "2026-06-10T10:02:58.860Z",
+        "updatedAt": "2026-06-10T10:02:58.860Z",
+        "name": "Mechanical Keyboard",
+        "sku": "MK-88",
+        "description": "RGB backlight keyboard",
+        "category": "Electronics",
+        "price": 89.99,
+        "quantity": 50,
+        "minLimit": 5,
+        "imageUrl": ""
+      },
+      "timestamp": "2026-06-10T10:02:58.860Z"
+    },
+    {
+      "_id": "g3p9qyp64",
+      "createdAt": "2026-06-10T10:02:58.862Z",
+      "updatedAt": "2026-06-10T10:02:58.862Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "IMPORT",
+      "target": {
+        "collection": "products",
+        "id": "fviki6mwm",
+        "name": "Office Chair"
+      },
+      "oldValue": null,
+      "newValue": {
+        "_id": "fviki6mwm",
+        "createdAt": "2026-06-10T10:02:58.861Z",
+        "updatedAt": "2026-06-10T10:02:58.861Z",
+        "name": "Office Chair",
+        "sku": "OC-12",
+        "description": "Ergonomic office chair",
+        "category": "Furniture",
+        "price": 149.5,
+        "quantity": 20,
+        "minLimit": 2,
+        "imageUrl": ""
+      },
+      "timestamp": "2026-06-10T10:02:58.862Z"
+    },
+    {
+      "_id": "wdo6s2x4y",
+      "createdAt": "2026-06-10T10:03:35.612Z",
+      "updatedAt": "2026-06-10T10:03:35.612Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "CREATE",
+      "target": {
+        "collection": "products",
+        "id": "u5wkah0we",
+        "name": "Test Gadget"
+      },
+      "oldValue": null,
+      "newValue": {
+        "_id": "u5wkah0we",
+        "createdAt": "2026-06-10T10:03:35.610Z",
+        "updatedAt": "2026-06-10T10:03:35.610Z",
+        "name": "Test Gadget",
+        "sku": "TG-u5zk1",
+        "category": "Gadgets",
+        "price": 99.99,
+        "quantity": 50,
+        "minLimit": 10
+      },
+      "timestamp": "2026-06-10T10:03:35.611Z"
+    },
+    {
+      "_id": "a5ix88wmk",
+      "createdAt": "2026-06-10T10:03:35.639Z",
+      "updatedAt": "2026-06-10T10:03:35.639Z",
+      "user": {
+        "id": "admin_smart",
+        "username": "System Admin",
+        "role": "admin"
+      },
+      "action": "ADJUST_STOCK",
+      "target": {
+        "collection": "products",
+        "id": "u5wkah0we",
+        "name": "Test Gadget"
+      },
+      "oldValue": {
+        "quantity": 50
+      },
+      "newValue": {
+        "quantity": 45
+      },
+      "timestamp": "2026-06-10T10:03:35.639Z"
     }
   ]
 }
